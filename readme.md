@@ -1,4 +1,4 @@
-# Multiagent Deep-Q learning
+# Multiagent Deep Q-learning
 This code is implemented in Tensorflow-2 and Python 3.6
 ## Requirments
 Latest version of Tensorflow-2 can be downloaded from the [official website](https://www.tensorflow.org/install). Tensorflow-2 requires [CUDA 11](https://developer.nvidia.com/cuda-11.0-download-archive)\
