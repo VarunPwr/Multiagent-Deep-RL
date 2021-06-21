@@ -52,7 +52,7 @@ Add addtional networks in [these lines](https://github.com/VarunPwr/Multiagent-D
 
 ## Acknowledgements
 */deeprl_prj* folder is inspired by the works of [Yilun Chen](https://github.com/yilunc2020/Attention-DQN).\
-OpenAI's [Multi-Agent Particle Environment](https://github.com/openai/multiagent-particle-envs) is for training.
+OpenAI's [Multi-Agent Particle Environment](https://github.com/openai/multiagent-particle-envs) is used for training.
 ## Author
 [Varun Pawar](mailto:varunpwr897@gmail.com)
 
