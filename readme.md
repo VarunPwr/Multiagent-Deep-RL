@@ -38,7 +38,7 @@ Import the desired environment class and change code [this line](https://github.
 No further changes needed.
 ### Increasing agents
 
-For increasing the number of agents follow as given below:
+For increasing the number of agents follow the steps given below:
 1. **/mape/multiagent/scenarios/simple_spread.py**: Change the number of agents in [this line](https://github.com/VarunPwr/Multiagent-Deep-RL/blob/535174ac17a576f9e6fa9f682effe4c4cb4696b0/mape/multiagent/scenarios/simple_spread.py#L11)\
 
 Other less relevant changes which can be made is reducing [agent](https://github.com/VarunPwr/Multiagent-Deep-RL/blob/535174ac17a576f9e6fa9f682effe4c4cb4696b0/mape/multiagent/scenarios/simple_spread.py#L21) and [obstacle](https://github.com/VarunPwr/Multiagent-Deep-RL/blob/535174ac17a576f9e6fa9f682effe4c4cb4696b0/mape/multiagent/scenarios/simple_spread.py#L25-L40) size as the evironment could clutter. 
