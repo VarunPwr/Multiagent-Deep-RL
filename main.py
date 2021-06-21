@@ -1,7 +1,7 @@
-# Put the references
-# Author : Varun Pawar
-# E-mail : varunpwr897@gmail.com
-
+"""
+Author : Varun Pawar
+E-mail : varunpwr897@gmail.com
+"""
 #!/usr/bin/env python
 import argparse
 import os
