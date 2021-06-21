@@ -132,18 +132,13 @@ class Scenario(BaseScenario):
                 dists = np.sqrt(np.sum(np.square(agent.state.p_pos - l.state.p_pos))) 
                 rew = min(rew, min(1, 0.5*(dists - l.size)/(l.size + 0*agent.size)))
         
-        # rew = rew - 100
         for a in world.agents:
             if agent.name is not a.name:
                 dist = np.sqrt(np.sum(np.square(agent.state.p_pos - a.state.p_pos)))
                 rew += min(1, 0.25*(dist - a.size)/(a.size + 0*agent.size))
-        # check this change.
         dist = abs(abs(agent.state.p_pos[0]) - 0.9)
         rew += min(1, 0.5*dist/0.2)
-        # if agent.collide:
-        #     for a in world.agents:
-        #         if self.is_collision(a, agent):
-        #             rew -= 1
+ 
         return rew
 
     def observation(self, agent, world):
